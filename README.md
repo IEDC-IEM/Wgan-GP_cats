@@ -19,12 +19,12 @@ the paper but one should feel free to play with the parameters like z_dim, n_cri
 ### Results
 <b>Epoch 1 </b><br><br>
 <img src="sample_images/wgan_gp/Epoch 1.jpg">
-<br>
+<br><br><br><br>
 <b>Epoch 100 </b><br><br>
 <img src="sample_images/wgan_gp/Epoch 100.jpg">
-<br>
+<br><br><br><br>
 <b>Epoch 300</b><br><br>
 <img src="sample_images/wgan_gp/Epoch 300.jpg">
-<br>
+<br><br><br><br>
 <b>Epoch 500</b><br><br>
 <img src="sample_images/wgan_gp/Epoch 500.jpg">
