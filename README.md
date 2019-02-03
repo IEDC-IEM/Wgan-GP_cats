@@ -7,6 +7,8 @@ Link to the paper is : https://arxiv.org/pdf/1704.00028.pdf
 Wasserstein GANs use the Earth mover distance instead of TV or JS divergence or KL divergence.
 <br>
 The weaker the distance, the better is the convergence of GANs. <br>
-The other distances mentioned failed in the case of low dimensional manifolds where the distributions may have very little or null Borel Set.
+The other distances mentioned failed in the case of low dimensional manifolds where the distributions may have very little common projection space. 
 <br>
 The mathematical details of the advantages of this distance can be read here : https://arxiv.org/pdf/1701.07875.pdf<br>
+<br>
+<img src="sample_images/wgan_gp/Epoch 1.jpg">
