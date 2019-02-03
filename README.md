@@ -12,16 +12,19 @@ The other distances mentioned failed in the case of low dimensional manifolds wh
 The mathematical details of the advantages of this distance can be read here : https://arxiv.org/pdf/1701.07875.pdf<br>
 <br>
 <br>
-
-## Results
-### Epoch 1 
+The WGAN paper uses RMSprop for optimization and weight clipping to enforce a Lipschitz condition but in WGAN-GP, gradient penalty enforces the Lipschitz and they succefully trained the model using Adam as discussed in detail in the paper.<br>
+## Usage
+Any image set of size 64x64 can be put in a folder and placed in the images folder. The noise dimension is set to 100 as suggested in 
+the paper but one should feel free to play with the parameters like z_dim, n_critic. Further use of a an optimizer with beta1=0 like RMSprop helps improve results in some cases.
+### Results
+Epoch 1 
 <img src="sample_images/wgan_gp/Epoch 1.jpg">
 <br>
-### Epoch 100
+Epoch 100
 <img src="sample_images/wgan_gp/Epoch 100.jpg">
 <br>
-### Epoch 300
+Epoch 300
 <img src="sample_images/wgan_gp/Epoch 300.jpg">
 <br>
-### Epoch 500
+Epoch 500
 <img src="sample_images/wgan_gp/Epoch 500.jpg">
