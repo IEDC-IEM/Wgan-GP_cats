@@ -14,11 +14,14 @@ The mathematical details of the advantages of this distance can be read here : h
 <br>
 
 ## Results
-### Epoch 1
+### Epoch 1 
 <img src="sample_images/wgan_gp/Epoch 1.jpg">
+<br>
 ### Epoch 100
 <img src="sample_images/wgan_gp/Epoch 100.jpg">
+<br>
 ### Epoch 300
 <img src="sample_images/wgan_gp/Epoch 300.jpg">
+<br>
 ### Epoch 500
 <img src="sample_images/wgan_gp/Epoch 500.jpg">
