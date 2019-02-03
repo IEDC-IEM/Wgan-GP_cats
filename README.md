@@ -11,4 +11,14 @@ The other distances mentioned failed in the case of low dimensional manifolds wh
 <br>
 The mathematical details of the advantages of this distance can be read here : https://arxiv.org/pdf/1701.07875.pdf<br>
 <br>
+<br>
+
+## Results
+### Epoch 1
 <img src="sample_images/wgan_gp/Epoch 1.jpg">
+### Epoch 100
+<img src="sample_images/wgan_gp/Epoch 100.jpg">
+### Epoch 300
+<img src="sample_images/wgan_gp/Epoch 300.jpg">
+### Epoch 500
+<img src="sample_images/wgan_gp/Epoch 500.jpg">
